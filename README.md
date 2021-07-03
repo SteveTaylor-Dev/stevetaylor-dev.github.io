@@ -1,4 +1,4 @@
-#Steve Taylor - Portfolio Site
+# Steve Taylor - Portfolio Site
 
 Contains examples of C# programming, including multiple projects built from scratch using Unity. Additional work such as graphic design and visual effects examples are also included. 
 
@@ -7,6 +7,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
 
 Credits:
+	
 	AJ
 	html5up.net | @ajlkn
 

@@ -167,7 +167,7 @@ input, select, textarea {
 	}
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 2em;
 		font-weight: 700;
 		line-height: 1.3;
 		margin: 0 0 1em 0;
@@ -2829,7 +2829,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 2.3em 0 0.1em 0 ;
 	}
 
 		#header .logo {
@@ -2837,8 +2837,9 @@ input, select, textarea {
 			border-bottom: 0;
 			color: inherit;
 			font-weight: 900;
-			letter-spacing: 0.35em;
-			margin: 0 0 2.5em 0;
+			font-size: larger;
+			letter-spacing: 0.05em;
+			margin: 0 0 1em 0;
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
@@ -2948,7 +2949,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding: 4em 0 0.1em 0 ;
+				padding: 0.8em 0 0.1em 0 ;
 			}
 
 				#header nav {
@@ -3170,18 +3171,7 @@ input, select, textarea {
 	}
 
 		#footer > .inner {
-			display: -moz-flex;
-			display: -webkit-flex;
-			display: -ms-flex;
-			display: flex;
-			-moz-flex-wrap: wrap;
-			-webkit-flex-wrap: wrap;
-			-ms-flex-wrap: wrap;
-			flex-wrap: wrap;
-			-moz-flex-direction: row;
-			-webkit-flex-direction: row;
-			-ms-flex-direction: row;
-			flex-direction: row;
+
 		}
 
 			#footer > .inner > * > :last-child {

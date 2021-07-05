@@ -166,11 +166,18 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+	p2 {
+		display: block;
+		margin-block-start: 1.5em;
+		margin-block-end: 2em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+	}
+
 	h1 {
 		font-size: 1.75em;
 		font-weight: 700;
 		line-height: 1.3;
-		margin: 0 0 1em 0;
 		letter-spacing: -0.035em;
 		white-space: pre-line;
 	}
@@ -183,7 +190,6 @@ input, select, textarea {
 
 			h1 {
 				font-size: 1.75em;
-				margin: 0 0 1em 0;
 				white-space: pre-line;
 			}
 
@@ -210,6 +216,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1em;
+		margin: 0 0 2em 0;
 	}
 
 	h3 {
@@ -1796,7 +1803,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		header p {
-			margin-top: 0;
+
 		}
 
 	}
@@ -2349,7 +2356,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 0 0 3em 0;
+			margin: 0 0 0em 0;
 			width: 100%;
 		}
 
@@ -2360,7 +2367,7 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				.image.main {
-					margin: 0 0 2em 0;
+					margin: 0 0 0em 0;
 				}
 
 			}
@@ -2704,11 +2711,11 @@ input, select, textarea {
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
+				background-color: #00cbff9c;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
+				background-color: #ff007d96;
 			}
 
 			.tiles article.style4 > .image:before {
@@ -2823,14 +2830,14 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 2.3em 0 0.1em 0 ;
+		padding: 1.25em 0 0.1em 0 ;
 	}
 
 		#header .logo {
 			display: block;
 			border-bottom: 0;
 			color: inherit;
-			font-weight: 900;
+			font-weight: 700;
 			font-size: larger;
 			letter-spacing: 0.03em;
 			margin: 0 0 1em 0;
@@ -2845,13 +2852,12 @@ input, select, textarea {
 			}
 
 			#header .logo .symbol {
-				margin-right: 0.65em;
 			}
 
 				#header .logo .symbol img {
 					display: block;
-					width: 2em;
-					height: 2em;
+					width: 4em;
+					height: 4em;
 				}
 
 		#header nav {
@@ -2943,12 +2949,12 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding: 0.8em 0 0.5em 0 ;
+				padding: 0em 0 0.5em 0 ;
 			}
 
 				#header nav {
 					right: 0.5em;
-					top: 0.5em;
+					top: 0.9em;
 				}
 
 					#header nav ul li a[href="#menu"]:before, #header nav ul li a[href="#menu"]:after {

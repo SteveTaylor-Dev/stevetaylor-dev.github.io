@@ -214,6 +214,7 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1em;
+		margin: 0em 0em 0em 0.5em;
 	}
 
 	h4 {
@@ -244,6 +245,7 @@ input, select, textarea {
 
 		h3 {
 			font-size: 0.8em;
+			margin: 0em 0em 0em 0.5em;
 		}
 
 	}

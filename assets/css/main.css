@@ -1804,7 +1804,6 @@ input, select, textarea {
 		header p {
 
 		}
-
 	}
 
 /* Icon */
@@ -2887,7 +2886,7 @@ input, select, textarea {
 					#header nav ul li a {
 						display: block;
 						position: relative;
-						height: 3em;
+						height: 3.1em;
 						line-height: 3em;
 						padding: 0 1.5em;
 						background-color: rgba(255, 255, 255, 0.5);
@@ -3046,7 +3045,7 @@ input, select, textarea {
 			-webkit-tap-highlight-color: transparent;
 			display: block;
 			position: absolute;
-			top: 2em;
+			top: 2.2em;
 			left: -6em;
 			width: 6em;
 			text-indent: 6em;

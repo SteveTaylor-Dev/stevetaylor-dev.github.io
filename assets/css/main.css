@@ -3109,7 +3109,7 @@ input, select, textarea {
 				}
 
 				#menu > .close {
-					top: 0.5em;
+					top: 1em;
 					left: -4.25em;
 					width: 4.25em;
 					text-indent: 4.25em;

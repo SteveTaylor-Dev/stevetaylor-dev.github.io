@@ -1,6 +1,6 @@
 # Steve Taylor - Portfolio Site
 
-Contains examples of C# programming, including multiple projects built from scratch using Unity. 
+Contains various programming examples, including multiple projects built from scratch using Unity. 
 Also includes examples of additional work such as graphic design and visual effects.
 
 Built using the 'Phantom' template by HTML5 UP.

@@ -203,10 +203,11 @@ input, select, textarea {
 
 		}
 
-	h2, h3, h4, h5, h6 {
+	
+		h2, h3, h4, h5, h6 {
 		font-weight: 900;
 		line-height: 1.5;
-		letter-spacing: 0.05em;
+		letter-spacing: 0.02em;
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2459,7 +2460,7 @@ input, select, textarea {
 		font-size: 0.8em;
 		font-weight: 900;
 		height: 3.5em;
-		letter-spacing: 0.2em;
+		letter-spacing: 0.1em;
 		line-height: 3.45em;
 		overflow: hidden;
 		padding: 0 1.25em 0 1.6em;

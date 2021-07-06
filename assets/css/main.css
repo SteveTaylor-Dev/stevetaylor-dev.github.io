@@ -206,7 +206,6 @@ input, select, textarea {
 	h2, h3, h4, h5, h6 {
 		font-weight: 900;
 		line-height: 1.5;
-		text-transform: uppercase;
 		letter-spacing: 0.11em;
 	}
 
@@ -251,7 +250,7 @@ input, select, textarea {
 		}
 
 		h3 {
-			font-size: 0.8em;
+			font-size: 1em;
 			margin: 0em 0em 0em 0.5em;
 		}
 
@@ -1866,8 +1865,8 @@ input, select, textarea {
 			}
 
 			.icon.style2:hover {
-				color: #a133ff80;
-				border-color: #a133ff80;
+				color: #a133ff91;
+				border-color: #a133ff91;
 			}
 
 			.icon.style2:active {
@@ -2172,8 +2171,8 @@ input, select, textarea {
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-bottom-color: #a133ff80;
-			box-shadow: inset 0 -1px 0 0 #a133ff80;
+			border-bottom-color: #a133ff91;
+			box-shadow: inset 0 -1px 0 0 #a133ff91;
 		}
 
 	select {
@@ -2277,8 +2276,8 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #a133ff80;
-			box-shadow: 0 0 0 1px #a133ff80;
+			border-color: #a133ff91;
+			box-shadow: 0 0 0 1px #a133ff91;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2496,8 +2495,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			color: #a133ff80 !important;
-			box-shadow: inset 0 0 0 2px #a133ff80;
+			color: #a133ff91 !important;
+			box-shadow: inset 0 0 0 2px #a133ff91;
 		}
 
 		input[type="submit"]:active,
@@ -2539,7 +2538,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #a133ff80;
+				background-color: #a133ff91;
 			}
 
 			input[type="submit"].primary:active,
@@ -2547,7 +2546,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #ee5f81;
+				background-color: #64caff;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2707,7 +2706,7 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #a133ff80;
+				background-color: #a133ff91;
 			}
 
 			.tiles article.style2 > .image:before {
@@ -2837,12 +2836,11 @@ input, select, textarea {
 			display: block;
 			border-bottom: 0;
 			color: inherit;
-			font-weight: 700;
+			font-weight: 800;
 			font-size: larger;
 			letter-spacing: 0.03em;
 			margin: 0 0 1em 0;
 			text-decoration: none;
-			text-transform: uppercase;
 			display: inline-block;
 		}
 

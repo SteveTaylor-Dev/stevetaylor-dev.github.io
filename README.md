@@ -1,6 +1,6 @@
 # Steve Taylor - Portfolio Site
 
-Contains various programming examples, including multiple projects built from the ground up using Unity. 
+Contains various programming examples, including multiple projects built using Unity. 
 Also includes examples of additional work such as graphic design and visual effects.
 
 Built using the 'Phantom' template by HTML5 UP.

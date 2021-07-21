@@ -5,106 +5,126 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html lang="en">
-	<head>
-		<title>Steve Taylor - Programming Examples</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<!-- Wrapper -->
-		<div id="wrapper">
+<head>
+    <title>Steve Taylor - Programming Examples</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
 
-			<!-- Header -->
-			<header id="header">
-				<div class="inner">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
 
-					<!-- Logo -->
-					<a href="index.html" class="logo">
-						<span class="symbol"><img src="images/logo.png" alt="" /></span><span class="title">Steve Taylor</span>
-					</a>
+        <!-- Header -->
+        <header id="header">
+            <div class="inner">
 
-					<!-- Nav -->
-					<nav>
-						<ul>
-							<li><a href="#menu">Menu</a></li>
-						</ul>
-					</nav>
+                <!-- Logo -->
+                <a href="index.html" class="logo">
+                    <span class="symbol">
+                        <img src="images/logo.png" alt="" /></span><span class="title">Steve Taylor</span>
+                </a>
 
-				</div>
-			</header>
+                <!-- Nav -->
+                <nav>
+                    <ul>
+                        <li><a href="#menu">Menu</a></li>
+                    </ul>
+                </nav>
 
-			<!-- Menu -->
-			<nav id="menu">
-				<h2>Menu</h2>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="programming.html">Programming Examples</a></li>
-				</ul>
-			</nav>
+            </div>
+        </header>
 
-			<!-- Main -->
-			<div id="main">
-				<div class="inner">
-					<h1>Programming Examples</h1>
-					<span class="image main"><img src="images/divider.jpg" alt="" /></span>
+        <!-- Menu -->
+        <nav id="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="programming.html">Programming Examples</a></li>
+            </ul>
+        </nav>
 
-					<h2>Simple Credential System (2021) - Python</h2>
-					<span class="image right"><img src="images/simplecredentialsystem.jpg" alt=""></span>
-					<p2>A credential storage and checking system (with user permissions) which contains a room area calculator. User menu options vary depending on current user credentials, and program loops until user specifies to exit. Created for a task set during Python training with AWS re/Start, where I was given 3 days to create an area calculator system that could programmatically change the contents of a file. I used the opportunity to test a user login system that could read from, and write to, txt files in a different directory. Credential Checker and Data Manager modules perform error handling and ensure all input and integral references, including directories, variable types, and credential formats, are valid.</p2>
-					<ul class="actions" style="list-style-type:none">
-						<li><a href="https://github.com/SteveTaylorDev/credential-system-area-calculator" class="button primary">View on GitHub</a></li>
-					</ul>
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
+                <h1>Programming Examples</h1>
+                <span class="image main">
+                    <img src="images/divider.jpg" alt="" /></span>
 
-					<h2>Modular Gameplay Builder (2019) - C#, Unity</h2>
-					<span class="image right"><img src="images/modulargameplaybuilder.jpg" alt=""></span>
-					<p2>Starting in 2018 and continuing into 2019, this project was created to build on a concept for a modular gameplay builder. Using a state machine behaviour model, virtual base classes were defined that can be overridden by subclasses. The logic system was split into Conditions and Functions, which are applied to a State. These could then be read by a Motor (using Modules for additional functionality like variable declaration, raycasting, collision detection etc). With this setup, any new Condition or Function behaviour can be read by the Motor, as its base class is used as the input type. Instead of using scripts attached to an object as a component, behaviour was split into scriptable objects; YAML files that store settings specific to that instance of the behaviour. For example, the same ApplyForce function might be used for acceleration or for gravity. Creating two scriptable objects referencing the same function and storing different, user-defined variable contents in each allows for reusing code and creating complex behaviour quickly by dragging them onto States, in any order, using the Unity editor. This project is explained in more detail on GitHub.</p2>
-					<ul class="actions" style="list-style-type:none">
-						<li><a href="https://github.com/SteveTaylorDev/modular-gameplay-builder" class="button primary">View on GitHub</a></li>
-					</ul>
+                <h2>Simple Credential System (2021) - Python</h2>
+                <span class="image right">
+                    <img src="images/simplecredentialsystem.jpg" alt=""></span>
+                <p>A credential storage and checking system (with user permissions) which contains a room area calculator. User menu options vary depending on current user credentials, and program loops until user specifies to exit. Created for a task set during Python training with AWS re/Start, where I was given 3 days to create an area calculator system that could programmatically change the contents of a file. I used the opportunity to test a user login system that could read from, and write to, txt files in a different directory. Credential Checker and Data Manager modules perform error handling and ensure all input and integral references, including directories, variable types, and credential formats, are valid.</p>
+                <ul class="actions" style="list-style-type: none">
+                    <li><a href="https://github.com/SteveTaylorDev/credential-system-area-calculator" class="button primary">View on GitHub</a></li>
+                </ul>
 
-					<h2>Modular Accelerometer Control (2017) - C#, Unity</h2>
-					<span class="image right"><img src="images/modularaccelerometer.jpg" alt=""></span>
-					<p2>Started as a refactoring of an earlier Accelerometer Control project, and wanting to practise a more modular design, this project aimed to split systems up into more specialized components. A Physics Controller script was built to handle object forces, with customization options for gravity, input and rotation, along with "arcade" styled physics that apply movement calculations directly to the object transform, bypassing Unity's rigidbody forces system. The project scope then expanded to focus on building specific, focused behaviour scripts, and allowing them to be attached to an object that contains the corresponding controller type. These scripts automatically reference the controller and apply the desired behaviour, such as setting orientation, gravity direction, or performing ground detection using raycasts. This means that gameplay can be built for each object using these prebuilt behaviour scripts coupled with their respective controller, all through the Unity editor.</p2>
-					<ul class="actions" style="list-style-type:none">
-						<li><a href="https://github.com/SteveTaylorDev/modular-accelerometer-control" class="button primary">View on GitHub</a></li>
-					</ul>
+                <h2>Modular Gameplay Builder (2019) - C#, Unity</h2>
+                <span class="image right">
+                    <img src="images/modulargameplaybuilder.jpg" alt=""></span>
+                <p>Starting in 2018 and continuing into 2019, this project was created to build on a concept for a modular gameplay builder. Using a state machine behaviour model, virtual base classes were defined that can be overridden by subclasses. The logic system was split into Conditions and Functions, which are applied to a State. These could then be read by a Motor (using Modules for additional functionality like variable declaration, raycasting, collision detection etc). With this setup, any new Condition or Function behaviour can be read by the Motor, as its base class is used as the input type. Instead of using scripts attached to an object as a component, behaviour was split into scriptable objects; YAML files that store settings specific to that instance of the behaviour. For example, the same ApplyForce function might be used for acceleration or for gravity. Creating two scriptable objects referencing the same function and storing different, user-defined variable contents in each allows for reusing code and creating complex behaviour quickly by dragging them onto States, in any order, using the Unity editor. This project is explained in more detail on GitHub.</p>
+                <ul class="actions" style="list-style-type: none">
+                    <li><a href="https://github.com/SteveTaylorDev/modular-gameplay-builder" class="button primary">View on GitHub</a></li>
+                </ul>
 
-					<h2>3D Physics Platformer (2017) - C#, Unity</h2>
-					<span class="image right"><img src="images/earlyphysicsplatformer.jpg" alt=""></span>
-					<p2>Starting in 2016 and continuing into 2017, I worked on a 3D platformer in Unity based on the physics driven gameplay found in the Sonic the Hedgehog series of games; something I've always wanted to make, and a driving factor in learning Unity. Gaining the required skills in vector math, trigonometry, and quaternions was the largest hurdle in this project, as these were things I had very limited knowledge of going in, and demanded a lot of learning. Contains GameController, PlayerController, and CameraController scripts to handle main behaviour, with auxiliary scripts like MeshController and InputManager to handle additional behaviour. This was the start of understanding the downsides of large scripts with self-contained systems, and the benefit of dedicated individual scripts with specific purposes that work together to form the larger system. More info on this project can be found on GitHub.</p2>
-					<ul class="actions" style="list-style-type:none">
-						<li><a href="https://github.com/SteveTaylorDev/early-physics-platformer" class="button primary">View on GitHub</a></li>
-					</ul>
+                <h2>Modular Accelerometer Control (2017) - C#, Unity</h2>
+                <span class="image right">
+                    <img src="images/modularaccelerometer.jpg" alt=""></span>
+                <p>Started as a refactoring of an earlier Accelerometer Control project, and wanting to practise a more modular design, this project aimed to split systems up into more specialized components. A Physics Controller script was built to handle object forces, with customization options for gravity, input and rotation, along with "arcade" styled physics that apply movement calculations directly to the object transform, bypassing Unity's rigidbody forces system. The project scope then expanded to focus on building specific, focused behaviour scripts, and allowing them to be attached to an object that contains the corresponding controller type. These scripts automatically reference the controller and apply the desired behaviour, such as setting orientation, gravity direction, or performing ground detection using raycasts. This means that gameplay can be built for each object using these prebuilt behaviour scripts coupled with their respective controller, all through the Unity editor.</p>
+                <ul class="actions" style="list-style-type: none">
+                    <li><a href="https://github.com/SteveTaylorDev/modular-accelerometer-control" class="button primary">View on GitHub</a></li>
+                </ul>
 
-					<h2>Accelerometer Control (2017) - C#, Unity</h2>
-					<span class="image right"><img src="images/accelerometer.jpg" alt=""></span>
-					<p2>Android project utilizing the accelerometer as input to manipulate the scene. Controller scripts for the Game, Camera and Gravity manage their respective tasks. The Game Controller handles player orientation and applying forces such as gravity and wall friction (detected using Unity's collision events). Using the Input Manager through Unity's scripting API, the accelerometer can be read as X and Y inputs. This was then combined into a Vector3. Feeding this vector into Gravity and Camera controllers, which contain behaviour utilizing it, allows for customizable tools that control the gravity direction and camera orientation based on phone rotation. A seperate mode for regular input is included, allowing a device with no accelerometer to control the scene.</p2>
-					<ul class="actions" style="list-style-type:none">
-						<li><a href="https://github.com/SteveTaylorDev/accelerometer-control" class="button primary">View on GitHub</a></li>
-					</ul>
+                <h2>3D Physics Platformer (2017) - C#, Unity</h2>
+                <span class="image right">
+                    <img src="images/earlyphysicsplatformer.jpg" alt=""></span>
+                <p>Starting in 2016 and continuing into 2017, I worked on a 3D platformer in Unity based on the physics driven gameplay found in the Sonic the Hedgehog series of games; something I've always wanted to make, and a driving factor in learning Unity. Gaining the required skills in vector math, trigonometry, and quaternions was the largest hurdle in this project, as these were things I had very limited knowledge of going in, and demanded a lot of learning. Contains GameController, PlayerController, and CameraController scripts to handle main behaviour, with auxiliary scripts like MeshController and InputManager to handle additional behaviour. This was the start of understanding the downsides of large scripts with self-contained systems, and the benefit of dedicated individual scripts with specific purposes that work together to form the larger system. More info on this project can be found on GitHub.</p>
+                <ul class="actions" style="list-style-type: none">
+                    <li><a href="https://github.com/SteveTaylorDev/early-physics-platformer" class="button primary">View on GitHub</a></li>
+                </ul>
 
-					<h2>Multiplayer Scaling System (2016) - C#, Unity</h2>
-					<span class="image right"><img src="images/shooter.jpg" alt=""></span>
-					<p2>One of the earliest examples of code I've written, this project was created after following Unity learning materials to create an arcade-style space shooter. Wanting to take the project much further than the materials covered, I added multiple systems to handle functionality such as; health management, adjustable weapon attributes, drop-in/drop-out multiplayer, difficulty/reward scaling (based on player amount), 'even rewards' system that equally distributes between players, and an object pooling system. More detail on these functionalities can be found on GitHub.</p2>
-					<ul class="actions" style="list-style-type:none">
-						<li><a href="https://github.com/SteveTaylorDev/multiplayer-scaling-system-shooter" class="button primary">View on GitHub</a></li>
-					</ul>
-				</div>
-			</div>
+                <h2>Accelerometer Control (2017) - C#, Unity</h2>
+                <span class="image right">
+                    <img src="images/accelerometer.jpg" alt=""></span>
+                <p>Android project utilizing the accelerometer as input to manipulate the scene. Controller scripts for the Game, Camera and Gravity manage their respective tasks. The Game Controller handles player orientation and applying forces such as gravity and wall friction (detected using Unity's collision events). Using the Input Manager through Unity's scripting API, the accelerometer can be read as X and Y inputs. This was then combined into a Vector3. Feeding this vector into Gravity and Camera controllers, which contain behaviour utilizing it, allows for customizable tools that control the gravity direction and camera orientation based on phone rotation. A seperate mode for regular input is included, allowing a device with no accelerometer to control the scene.</p>
+                <ul class="actions" style="list-style-type: none">
+                    <li><a href="https://github.com/SteveTaylorDev/accelerometer-control" class="button primary">View on GitHub</a></li>
+                </ul>
 
-			<!-- Footer -->
-			<footer id="footer">
-					<div class="inner">
-						<ul class="icons">
-							<li><a href="https://github.com/SteveTaylorDev" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="https://www.linkedin.com/in/stevetaylordev/" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://twitter.com/SteveTGames" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-						</ul>
-						<section>
-							<h3>contact.stevetaylor@gmail.com</h3>
-							<!---<h2>Contact</h2>
+                <h2>Multiplayer Scaling System (2016) - C#, Unity</h2>
+                <span class="image right">
+                    <img src="images/shooter.jpg" alt=""></span>
+                <p style="min-height: 10em;">
+                    One of the earliest examples of code I've written, this project was created after following Unity learning materials to create an arcade-style space shooter. Wanting to take the project much further than the materials covered, I added multiple systems to handle functionality such as; health management, adjustable weapon attributes, drop-in/drop-out multiplayer, difficulty/reward scaling (based on player amount), 'even rewards' system that equally distributes between players, and an object pooling system. More detail on these functionalities can be found on GitHub.
+                </p>
+                <ul class="actions" style="list-style-type: none">
+                    <li><a href="https://github.com/SteveTaylorDev/multiplayer-scaling-system-shooter" class="button primary">View on GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <ul class="icons">
+                    <li><a href="https://github.com/SteveTaylorDev" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/stevetaylordev/" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="https://twitter.com/SteveTGames" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                </ul>
+                <section>
+                    <h3>contact.stevetaylor@gmail.com</h3>
+                    <!---<h2>Contact</h2>
 							<form method="post" action="#">
 								<div class="fields">
 									<div class="field half">
@@ -122,19 +142,19 @@
 									<li><input type="submit" value="Send" class="primary"></li>
 								</ul>
 							</form>-->
-						</section>							
-						<ul class="copyright">
-							<li>Template: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</div>
-			</footer>
-		</div>
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
+                </section>
+                <ul class="copyright">
+                    <li>Template: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 
-	</body>
+</body>
 </html>

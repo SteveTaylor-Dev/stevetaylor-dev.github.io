@@ -2715,7 +2715,7 @@ body:not(.is-touch) .tiles article:hover > .image {
 }
 
     body:not(.is-touch) .tiles article:hover > .image:before {
-        background-color: #333333;
+        background-color: #232323;
         opacity: 0.45;
     }
 

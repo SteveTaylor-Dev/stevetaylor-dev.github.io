@@ -2342,6 +2342,16 @@ input[type="radio"] {
             width: 100%;
         }
 
+    .image.topdivider {
+        display: block;
+        margin: 0 0 -4em 0;
+        width: 100%;
+
+    }
+        .image.topdivider img {
+            width: 100%;
+        }
+
 @media screen and (max-width: 736px) {
 
     .image.main {
